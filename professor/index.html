@@ -42,6 +42,7 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
+
     
 <script src="/libs/jquery/3.5.0/jquery.min.js"></script>
 
@@ -61,6 +62,13 @@
     
 
 
+    
+    
+<script src="/js/bootstrap.js"></script>
+
+
+      <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body>
@@ -71,8 +79,43 @@
             <div class="container-inner">
                 <div id="header-title">
                     <h1 class="logo-wrap">
+                        <!-- 此处放置了log,应该要在右边添加内容,高度随之改变 -->
                         <a href="/" class="logo"></a>
                     </h1>
+
+                
+                                <!-- 这一块还是自己想办法改写吧 -->
+                
+                        <div id="zptest">
+                            
+                                <div id="zpimg">
+                                    <img id="carousel-img0" src="/css/images/hh.jpg" style="width:400px; float:right ;">   
+                                </div>
+                            
+                                <div id="zpimg">
+                                    <img id="carousel-img1" src="/css/images/z4.jpg" style="width:400px; float:right ;">   
+                                </div>
+                            
+                                <div id="zpimg">
+                                    <img id="carousel-img2" src="/css/images/z3.jpg" style="width:400px; float:right ;">   
+                                </div>
+                            
+
+                        </div>
+                        <script>
+                            $('#zptest #zpimg').carousel({
+                                    pause: '',
+                                    interval: 2000
+                            });
+                            console.log("2323232");
+                        </script>
+
+                
+
+                                <!-- 改写结尾处 -->
+
+
+                    
                     
                 </div>
                 <div id="header-inner" class="nav-container">
@@ -309,18 +352,6 @@
 
 </article>
 
-    <section id="comments">
-    
-        
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-
-
-    
-    </section>
-
-
 
                         </div>
                     </section>
@@ -508,22 +539,6 @@
 
             
                 
-
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
-        <div class="widget">
-            <ul>
-                
-                    <li>
-                        <a target="_blank" rel="noopener" href="http://hexo.io">Hexo</a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
 
             
         
