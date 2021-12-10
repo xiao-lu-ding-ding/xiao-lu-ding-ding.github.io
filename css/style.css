@@ -273,15 +273,15 @@ code {
 }
 .logo {
   display: block;
-  padding: 10px 0;
-  width: 200px;
-  height: 200px;
+  padding: 0px 0px;
+  width: 80px;
+  height: 80px;
   background-image: url("images/name.png");
-  background-position: 0px 10px;
+  background-position: 0px 0px;
   background-repeat: no-repeat;
-  -webkit-background-size: 200px 200px;
-  -moz-background-size: 200px 200px;
-  background-size: 200px 200px;
+  -webkit-background-size: 80px 80px;
+  -moz-background-size: 80px 80px;
+  background-size: 80px 80px;
 }
 .main-body {
   margin-top: -60px;
@@ -378,7 +378,7 @@ code {
 #header-title .subtitle {
   font-size: 16px;
   font-style: italic;
-  line-height: 210px;
+  line-height: 90px;
   color: rgba(255,255,255,0.7);
   text-shadow: 0 1px rgba(0,0,0,0.2);
 }
@@ -564,7 +564,6 @@ code {
   display: none;
 }
 #sidebar .sidebar-top {
-  background: #006bde;
   padding: 15px 30px;
 }
 #sidebar .sidebar-top:before,
@@ -585,7 +584,7 @@ code {
 }
 #sidebar .sidebar-top p {
   float: left;
-  color: rgba(255,255,255,0.8);
+  color: rgba(0,0,255,0.644);
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1656,11 +1655,11 @@ a.article-title:hover {
   line-height: 22px;
 }
 #footer .logo {
-  width: 160px;
-  height: 160px;
-  -webkit-background-size: 160px 160px;
-  -moz-background-size: 160px 160px;
-  background-size: 160px 160px;
+  width: 64px;
+  height: 64px;
+  -webkit-background-size: 64px 64px;
+  -moz-background-size: 64px 64px;
+  background-size: 64px 64px;
 }
 i.icon {
   display: inline-block;
