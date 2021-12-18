@@ -294,7 +294,7 @@ code {
   box-sizing: border-box;
   -webkit-box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
   box-shadow: rgba(0,0,0,0.098) 0px 1px 1px 0px;
-  padding-left: 340px;
+  padding-left: 300px;
   background: url("images/s-left.png") repeat-y left 0;
 }
 .main-body-inner:before,
@@ -557,14 +557,14 @@ code {
 }
 #sidebar {
   float: left;
-  margin-left: -340px;
-  width: 340px;
+  margin-left: -300px;
+  width: 300px;
 }
 #sidebar .sidebar-toggle {
   display: none;
 }
 #sidebar .sidebar-top {
-  padding: 15px 30px;
+  padding: 0px 15px;
 }
 #sidebar .sidebar-top:before,
 #sidebar .sidebar-top:after {
@@ -1974,7 +1974,7 @@ i.icon:before {
     transition: opacity 0.2s ease-in;
   }
   .main-body-inner #sidebar.expend {
-    width: 340px;
+    width: 300px;
     overflow-y: auto;
     z-index: 2;
     -webkit-transition: width 0.2s ease-in;
