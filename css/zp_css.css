@@ -10,3 +10,11 @@
     /* text-align: center; */
     overflow: hidden;
 }
+@font-face {
+    font-family: 'Mi';
+    src: url('../font/MiSans-Normal.ttf');
+}
+@font-face {
+    font-family: 'Mi1';
+    src: url('../font/MiSans-Bold.ttf');
+}
